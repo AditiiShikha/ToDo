@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'DM Sans', sans-serif;
+  background: #F5F5FA;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  background: #F5F5FA;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F5FA;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c7c3f5;
+  border-radius: 99px;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: none;
+}
+
+::selection {
+  background: #6C63FF33;
+  color: #3B2FA4;
+}
